@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+    display: block;
+}
+.main-header {
+    background-color: cadetblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    margin: 1rem;
+}
+.review-form {
+    background-color:aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+.form-label {
+    color: black;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 1rem;
+    border-color: blueviolet;
+}
+.form-labell {
+    padding: 1rem;
+    margin: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+}
+.btn {
+    background-color: violet;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.detail-list {
+    font-family: inherit;
+    color: black;
+}

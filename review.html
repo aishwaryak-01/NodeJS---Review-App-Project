@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Review App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="main-header">Add Review</h1>
+
+    <div class="review-form">
+    <form id="companyForm">
+    <label for="name" class="form-label">Company Name :</label><br>
+    <input type="text" id="name" name="name" class="form-control" required><br>
+
+    <label for="pros" class="form-label">Pros :</label><br>
+    <input type="text" id="pros" name="pros" class="form-control" required><br>
+
+    <label for="cons" class="form-label">Cons :</label><br>
+    <input type="text" id="cons" name="cons" class="form-control" required><br>
+
+    <label for="rating" class="form-label">Rating :</label><br>
+    <select id="rating" name="rating" class="form-control" required>
+        <option value="5">*****</option>
+        <option value="4">****</option>
+        <option value="3">***</option>
+        <option value="2">**</option>
+        <option value="1">*</option>
+    </select><br><br>
+
+    <button type="submit" class="btn" id="submit" name="submit">Submit</button>
+    </form></div>
+
+    <h3 class="main-header">Search Company :</h3>
+
+    <label for="search" class="form-labell">Search Company :</label>
+    <input type="text" id="search" name="search" class="form-control" required>
+
+    <button id="searchButton" class="btn" name="searchButton">Search</button>
+
+    <div id="result"></div>
+
+    <h3 class="main-header">All Entered Details :</h3>
+
+    <ul id="allDetails" class="detail-list"></ul>
+
+    <div id="searchHistory"></div>
+    
+    <script src="review.js"></script>
+</body>
+</html>
